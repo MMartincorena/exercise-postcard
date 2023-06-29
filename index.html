@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Construye una Postal Digital con HTML/CSS</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="shortcut icon"
+			href="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="cabecera">
+				<h1 class="titulo">My Postcard</h1>
+				<div class="logo">
+					<img
+						class="logo"
+						src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png"
+						alt="Logo de 4Geek"
+					/>
+				</div>
+			</div>
+			<div class="contenido">
+				<div class="panelIzquierdo">
+					<p class="textDescription">
+						Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!
+					</p>
+					<p>This is so cool, can´t wait to start doing more stuff!</p>
+				</div>
+				<div class="panelDerecho">
+					<form action="/enviar" method="POST">
+						<input type="text" name="nombre" id="nombre" required placeholder="Some Name" />
+						<input type="text" name="email" id="email" required placeholder="Some Email" />
+						<input type="text" name="comment" id="comment" required placeholder="Some Comment" />
+						<button type="submit" value="Enviar">Send My Postcard</button>
+					</form>
+				</div>
+			</div>
+			<div class="espacioBoton"></div>
+		</div>
+	</body>
+</html>

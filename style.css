@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@100&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Comic Neue", cursive;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(48, 47, 47);
+}
+
+.container {
+	width: 530px;
+	height: 350px;
+	position: relative;
+	background-color: #ffff;
+}
+
+.cabecera {
+	width: 100%;
+	height: 23%;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.logo {
+	height: 60px;
+	width: auto;
+}
+
+.contenido {
+	width: 100%;
+	height: 55%;
+	padding: 2%;
+	display: flex;
+}
+
+.panelIzquierdo {
+	width: 50%;
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 5%;
+}
+
+.panelDerecho {
+	width: 50%;
+	padding-left: 2%;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 13px;
+	font-family: "Comic Neue", cursive;
+}
+
+.espacioBoton {
+	display: flex;
+	height: 20%;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	position: absolute;
+	top: 75%;
+	right: 37%;
+	height: 25px;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Comic Neue", cursive;
+	font-weight: 600;
+	border: none;
+	background-color: grey;
+	margin-bottom: 45px;
+}
+
+button:hover {
+	color: white;
+	cursor: pointer;
+}
